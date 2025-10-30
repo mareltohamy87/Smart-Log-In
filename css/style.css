@@ -1,0 +1,116 @@
+ :root {
+     --primary-color: #24353f;
+     --bg-primary-color: rgb(32, 111, 163);
+     --bg-white-color: #fff;
+     --secondary-color: #17a2b8;
+     --border-color: #ced4da;
+     --white-color: #fff;
+ }
+
+ /*_____________ body BACKGROUND _______________ */
+ body {
+     font-family: 'Titillium Web', sans-serif;
+     height: 100vh;
+     background: linear-gradient(135deg,
+             #ffe8f3,
+             #d9f3ff);
+     /* Soft pastel gradient background */
+     overflow: hidden;
+ }
+
+ .container {
+     width: 100vw;
+     /* Fill the entire screen */
+     height: 100vh;
+     overflow: hidden;
+     background: radial-gradient(circle,
+             rgba(255, 255, 255, 0.2),
+             rgba(0, 0, 0, 0.1));
+ }
+
+ .container::before,
+ .container::after {
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 200%;
+     height: 200%;
+     background: conic-gradient(from 0deg,
+             #ff9aa2,
+             /* Soft pink */
+             #ffb7b2,
+             /* Light peach */
+             #ffdac1,
+             /* Pastel yellow */
+             #e2f0cb,
+             /* Mint green */
+             #a2e4ff,
+             /* Baby blue */
+             #c9afff,
+             /* Lavender */
+             #ffb7b2,
+             #ff9aa2);
+     transform: translate(-50%, -50%);
+     animation: rotate 8s linear infinite;
+     filter: blur(50px);
+     /* Create a soft glowing effect */
+     opacity: 0.8;
+ }
+
+ /* Secondary rotating layer for depth */
+ .container::after {
+     width: 180vh;
+     height: 180vw;
+     animation: rotate-reverse 10s linear infinite;
+     opacity: 0.6;
+ }
+
+ /* ___________________ F O R M __________________ */
+ .form-control {
+     background-color: var(--bg-primary-color);
+     border: 2px solid aqua;
+     box-shadow: 0 0 0 .17rem rgba(53, 228, 213, 0.616);
+ }
+
+ .form-control input {
+     background-color: var(--bg-white-color);
+     box-shadow: none;
+ }
+
+ .form-control:focus {
+     box-shadow: 0 0 0 .17rem rgba(228, 196, 53, 0.616);
+ }
+
+ h1 {
+     background-image: linear-gradient(to right, #e665d0, #dfd676);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     width: fit-content;
+     font-family: var(--font-sans)
+ }
+
+ .btn:hover {
+     background-color: var(--bg-white-color);
+ }
+
+ .animated-img {
+     width: 56px;
+ }
+
+ .error {
+    color: #ead902;
+ }
+
+ #logoutBtn:hover {
+    color: black;
+ }
+
+ .home-text {
+    text-transform: bold;
+    width: 600px;
+    height: 200px;
+    background-color: #f87fe4;
+    border-radius: 20px;
+    margin-top: 300px;
+ }
