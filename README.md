@@ -67,7 +67,13 @@ This project simulates a basic sign-up and login flow and is intended for **lear
 
 ## 🚀 Live Demo
 
-🔗 **Live Demo:** *(add your GitHub Pages / Netlify link here)*
+🔗 **Live Demo:**(https://mareltohamy87.github.io/Smart-Log-In/)
+
+---
+## Images
+<img width="1846" height="702" alt="signup" src="https://github.com/user-attachments/assets/637f7be1-189c-44d3-b4e3-263e7819f841" />
+<img width="1798" height="539" alt="signin" src="https://github.com/user-attachments/assets/866d8c42-b94e-4eb4-a08c-029120ccdc81" />
+
 
 ---
 
@@ -93,10 +99,6 @@ Smart-Login-System/
 
 **Mariam El Tohamy**  
 Front-End Developer | JavaScript Enthusiast  
-
-🔗 GitHub: *(add your profile link)*  
-🔗 LinkedIn: *(add your profile link)*
-
 ---
 
 ⭐ If you like this project, feel free to star the repository!
